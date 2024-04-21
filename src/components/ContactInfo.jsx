@@ -1,0 +1,37 @@
+import React from 'react'
+import { useTranslation } from 'react-i18next';
+
+const ContactInfo = () => {
+    const { t } = useTranslation();
+
+  return (
+    <div className='lg:min-w-[400px] text-[1em] text-[#414247] mx-[15px]'>
+      <div className='text-[#39335b] font-bold text-[2em] w-full text-center'>{t('ВОДИТЕЛЬСКИЙ ЦЕНТР')}</div>
+      <div className='text-[#0378db] text-[2em] w-full text-center   font-medium'>{t('"АВТОСТОП"')}</div>
+      <div className='text-[#0378db] text-[2em] font-medium'>{t('Адам Сенярски')}</div>
+      <div className='flex flex-col'>
+        <div className='text-[#0378db] text-[1.1em] font-medium mt-[10px]'>{t('Адрес:')}</div>
+          <div>
+            {t('Цёлка 13 комн. 410')}<br/>
+            {t('(4 этаж – лифт)')}<br/>
+            {t('01-402 Варшава')}
+          </div>
+          <div className='mt-[10px]'><span className='text-[#0378db] text-[1.1em] font-medium'>{t('Тел. мобильный: ')}</span>+48 796 555 544</div>
+          <div className='mt-[10px]'><span className='text-[#0378db] text-[1.1em] font-medium'>{t('В нерабочее время: ')}</span>+48 501 754 402</div>
+          <div className='text-[#0378db] text-[1.1em] font-medium mt-[10px]'>{t('Часы работы офиса:')}</div>
+          <div>
+            {t('понедельник 9.00 – 17.00')}<br/>
+            {t('вторник 11.00 – 19.00')}<br/>
+            {t('среда 11.00 – 19.00')}<br/>
+            {t('четверг 9.00 – 17.00')}<br/>
+            {t('пятница 9.00 – 17.00')}
+          </div>
+          <div className='mt-[10px]'><span className='text-[#0378db] text-[1.1em] font-medium'>{t('Электронная почта: ')}</span>biuro@auto-stop.pl</div>
+          <div className='mt-[10px]'><span className='text-[#0378db] text-[1.1em] font-medium'>{t('Аудитория: ')}</span>{t('ул. Эразма Цёлка 13 комн. 411 (4 этаж – лифт)')}</div>
+          <div className='mt-[10px]'><span className='text-[#0378db] text-[1.1em] font-medium'>{t('Маневренная площадь ')}</span>{t('ул. Ягеллонская 88Г')}</div>
+        </div> 
+    </div>
+  )
+}
+
+export default ContactInfo
