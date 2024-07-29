@@ -12,7 +12,7 @@ const PeriodicEdu = () => {
   return (
     <div className='flex flex-col items-center '>
       <Header isPure={false}/>
-      <SecondaryPageseSubheader title={'Периодическое обучение.'} links={['АВТО СТОП', 'ПРЕДЛОЖЕНИЯ', 'СЕРТИФИКАТ ПРОФЕССИОНАЛЬНОЙ КВАЛИФИКАЦИИ']} linksArdess={['/', '/offers', '/professional-qualification-certificate']} lastAdres={'Периодическое обучение.'}/>
+      <SecondaryPageseSubheader title={'Периодическое обучение.'} links={['АВТО ШКОЛА', 'ПРЕДЛОЖЕНИЯ', 'СЕРТИФИКАТ ПРОФЕССИОНАЛЬНОЙ КВАЛИФИКАЦИИ']} linksArdess={['/', '/offers', '/professional-qualification-certificate']} lastAdres={'Периодическое обучение.'}/>
       <HowGetOffer
         title={'Периодическое обучение.'}
         firstText={['Применяется к водителям с водительскими правами категории C/CE или D/DE.', 'Водители обязаны пройти начальную квалификацию или ускоренный курс начальной квалификации, если они хотят профессионально перевозить людей или грузы автомобильным транспортом:']}

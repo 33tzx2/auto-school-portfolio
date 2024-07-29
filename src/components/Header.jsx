@@ -75,8 +75,8 @@ const Header = ({isPure}) => {
       </div>
       <div className='bg-[#0378db] min-w-[239px] p-[20px] hidden lg:block'>
         {!isScrolled ? (<h2 className='text-center font-bold text-[1.05em]'>{t('ЗАПИШИТЕСЬ НА КУРС')}</h2>) : ''}
-        <div className='flex flex-row justify-center mt-[10px]'><img src={Tel} alt="tel" className='mr-[5px] w-[18px] [18px] self-center'/>796 555 544</div>
-        <div className='flex flex-row justify-center mt-[10px]'><img src={Tel} alt="tel" className='mr-[5px] w-[18px] [18px] self-center'/>501 754 402</div>
+        <div className='flex flex-row justify-center mt-[10px]'><img src={Tel} alt="tel" className='mr-[5px] w-[18px] [18px] self-center'/>796 000 000</div>
+        <div className='flex flex-row justify-center mt-[10px]'><img src={Tel} alt="tel" className='mr-[5px] w-[18px] [18px] self-center'/>501 000 000</div>
       </div>
     </div>
   )

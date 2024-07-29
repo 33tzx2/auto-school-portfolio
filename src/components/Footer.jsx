@@ -17,22 +17,22 @@ const Footer = () => {
             <img src={FooterPhone} alt="tel" className='w-[24px] h-[24px] mr-[5px] mt-[5px]'/>
             <div className='flex flex-col'>
               <div className='text-[1.3em] text-white'>{t('ТЕЛЕФОН')}</div>
-              <Link className='text-[1.1em] text-[#0378db]'>796 555 544</Link>
-              <Link className='text-[1.1em] text-[#0378db]'>501 754 402</Link>
+              <Link className='text-[1.1em] text-[#0378db]'>796 000 000</Link>
+              <Link className='text-[1.1em] text-[#0378db]'>501 000 000</Link>
             </div>
           </div>
           <div className='flex flex-row mx-[25px] my-[15px] lg:my-0'>
             <img src={FooterEmail} alt="tel" className='w-[24px] h-[24px] mr-[5px] mt-[5px]'/>
             <div className='flex flex-col'>
               <div className='text-[1.3em] text-white'>{t('ЭЛЕКТРОННАЯ ПОЧТА')}</div>
-              <Link className='text-[1.1em] text-[#0378db]'>BIURO@AUTO-STOP.PL</Link>
+              <Link className='text-[1.1em] text-[#0378db]'>exemple@auto-school.pl</Link>
             </div>
           </div>
           <div className='flex flex-row mx-[25px] my-[15px] lg:my-0'>
             <img src={FooterLocation} alt="tel" className='w-[24px] h-[24px] mr-[5px] mt-[5px]'/>
             <div className='flex flex-col'>
               <div className='text-[1.3em] text-white'>{t('АДРЕС')}</div>
-              <Link className='text-[1.1em] text-[#0378db] max-w-[200px]'>{t('ЦЁЛКА 13 НОМЕР 410 (4 ЭТАЖ – ЛИФТ) 01-402 ВАРШАВА')}</Link>
+              <Link className='text-[1.1em] text-[#0378db] max-w-[200px]'>{t('Автошкольная ул.123')}</Link>
             </div>
           </div>
       </div>

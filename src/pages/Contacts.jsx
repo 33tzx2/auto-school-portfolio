@@ -16,7 +16,7 @@ const Contacts = () => {
       <Header isPure={false} />
       <SecondaryPageseSubheader
         title={'Контакты'}
-        links={['АВТО СТОП', 'ПРЕДЛОЖЕНИЯ']}
+        links={['АВТО ШКОЛА', 'ПРЕДЛОЖЕНИЯ']}
         linksArdess={['/', '/offers']}
         lastAdres={'КОНТАКТЫ'}
       />

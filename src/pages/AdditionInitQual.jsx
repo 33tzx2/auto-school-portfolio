@@ -12,7 +12,7 @@ const AdditionInitQual = () => {
   return (
     <div className='flex flex-col items-center '>
       <Header isPure={false}/>
-      <SecondaryPageseSubheader title={'Дополнительная начальная квалификация.'} links={['АВТО СТОП', 'ПРЕДЛОЖЕНИЯ', 'СЕРТИФИКАТ ПРОФЕССИОНАЛЬНОЙ КВАЛИФИКАЦИИ']} linksArdess={['/', '/offers', '/professional-qualification-certificate']} lastAdres={'Дополнительная начальная квалификация.'}/>
+      <SecondaryPageseSubheader title={'Дополнительная начальная квалификация.'} links={['АВТО ШКОЛА', 'ПРЕДЛОЖЕНИЯ', 'СЕРТИФИКАТ ПРОФЕССИОНАЛЬНОЙ КВАЛИФИКАЦИИ']} linksArdess={['/', '/offers', '/professional-qualification-certificate']} lastAdres={'Дополнительная начальная квалификация.'}/>
       <HowGetOffer
         title={'Дополнительная начальная квалификация.'}
         subTitle={'Дополнительная начальная квалификация предназначена для водителей, уже получивших сертификат начальной квалификации водителя по следующему блоку программы:'}

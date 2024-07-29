@@ -11,7 +11,7 @@ const HDSCourses = () => {
   return (
     <div className='flex flex-col items-center'>
       <Header isPure={false}/>
-      <SecondaryPageseSubheader title={'Курс HDS'} links={['АВТО СТОП', 'ПРЕДЛОЖЕНИЯ']} linksArdess={['/', '/offers']} lastAdres={'КУРС HDS'}/>
+      <SecondaryPageseSubheader title={'Курс HDS'} links={['АВТО ШКОЛА', 'ПРЕДЛОЖЕНИЯ']} linksArdess={['/', '/offers']} lastAdres={'КУРС HDS'}/>
       <HowGetOffer
         title={'КУРС HDS'}
         subTitle={'HDS – ГИДРАВЛИЧЕСКИЙ АВТОКРАН'}

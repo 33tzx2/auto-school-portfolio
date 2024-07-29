@@ -15,7 +15,7 @@ const ProfQualSertificates = () => {
   return (
     <div className='flex flex-col items-center min-h-screen'>
       <Header isPure={false}/>
-      <SecondaryPageseSubheader title={'Свидетельство о профессиональной квалификации.'} links={['АВТО СТОП', 'ПРЕДЛОЖЕНИЯ']} linksArdess={['/', '/offers']} lastAdres={'Свидетельство о профессиональной квалификации.'}/>
+      <SecondaryPageseSubheader title={'Свидетельство о профессиональной квалификации.'} links={['АВТО ШКОЛА', 'ПРЕДЛОЖЕНИЯ']} linksArdess={['/', '/offers']} lastAdres={'Свидетельство о профессиональной квалификации.'}/>
       <div className='mx-[10px] my-[40px] min-h-[40vh]'>
         <div className='ml-[14px]'>
             <Link to='/professional-qualification-certificate/pre-qual' className={linkStyle + ' font-medium'}><img src={CheckIcon} alt="link"  className='w-[14px] h-[14px] mr-[5px] '/>{t(`Предварительная квалификация.`)}</Link>

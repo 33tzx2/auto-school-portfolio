@@ -12,7 +12,7 @@ const HomeAboutUs = () => {
       <div className='text-[1.75em] lg:text-[2.5em] mb-[30px] lg:mb-[40px]'>{t('НЕСКОЛЬКО СЛОВ')} <span className='text-[#0378db]'>{t('О НАС')}</span></div>
       <div className='flex flex-col lg:flex-row'>
         <div className='flex flex-col items-center lg:mr-[15px]'>
-          <div className='text-[#0378db] text-[1.7em] lg:text-[2.62em] text-center lineHeightSmall mb-[15px] lg:mb-[40px]'>{t('Центр подготовки водителей «Авто-Стоп»')}</div>
+          <div className='text-[#0378db] text-[1.7em] lg:text-[2.62em] text-center lineHeightSmall mb-[15px] lg:mb-[40px]'>{t('Центр подготовки водителей «Авто-Школа')}</div>
           <div className='text-[#414247] text-[1.15em]'><span className='text-[#0378db] underline'>{t('Мы на рынке уже 25 лет.')}</span> {t('В нашем широком предложении каждый найдет что-то для себя. Мы проводим курсы получения водительских прав всех категорий, а также курсы для людей с ограниченными возможностями и курсы обучения вождению. Наше предложение включает в себя большой выбор курсов и тренингов по вождению транспортных средств высшей категории, а также курсы операторов вилочных погрузчиков. Приглашаем Вас ознакомиться с нашим предложением.')}</div>
         </div>
         <div className='flex flex-col lg:flex-row justify-evenly lg:items-start'>

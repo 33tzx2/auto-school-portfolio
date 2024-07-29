@@ -11,7 +11,7 @@ const ADRCourses = () => {
   return (
     <div className='flex flex-col items-center '>
       <Header isPure={false}/>
-      <SecondaryPageseSubheader title={'Курс АДР'} links={['АВТО СТОП', 'ПРЕДЛОЖЕНИЯ']} linksArdess={['/', '/offers']} lastAdres={'КУРС АДР'}/>
+      <SecondaryPageseSubheader title={'Курс АДР'} links={['АВТО ШКОЛА', 'ПРЕДЛОЖЕНИЯ']} linksArdess={['/', '/offers']} lastAdres={'КУРС АДР'}/>
       <HowGetOffer
         title={'Курс АДР'}
         firstText={['В ходе обучения профессиональные водители готовятся профессионально и безопасно осуществлять автомобильные перевозки опасных материалов (ADR) в соответствии с действующим законодательством.']}

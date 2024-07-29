@@ -29,7 +29,7 @@ const HomeSubHeader = () => {
     <div className='lg:bg-[url(./img/header-home.jpg)] bg-no-repeat bg-cover w-full lg:pt-[133px]' ref={backgroundRef}>
       <div className='flex lg:flex-row flex-col'>
         <div className='w-full p-[20px] lg:pl-[120px] text-white flex flex-col justify-center lg:items-start items-center lg:text-start text-center bg-[url(./img/header-home.jpg)] lg:bg-none bg-right pt-[183px] bg-no-repeat' ref={innerBackgroundRef}>
-          <div className='text-[1em] lg:text-[2.5em] font-bold lg:mb-[120px] mb-[60px]'>{t('Центр подготовки водителей "Авто-Стоп"')}</div>
+          <div className='text-[1em] lg:text-[2.5em] font-bold lg:mb-[120px] mb-[60px]'>{t('Центр подготовки водителей "Авто-Школа"')}</div>
           <div className='flex flex-col text-[1.8em] lg:text-[4.3em] lineHeightSmall justify-start'>
             {t('ЛУЧШАЯ АВТОШКОЛА')} <br />
             {t('ВАРШАВЫ C 1998 ГОДА.')}

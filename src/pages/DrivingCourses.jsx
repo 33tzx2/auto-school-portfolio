@@ -15,7 +15,7 @@ const DrivingCourses = () => {
   return (
     <div className='flex flex-col items-center '>
       <Header isPure={false}/>
-      <SecondaryPageseSubheader title={'Курсы вождения.'} links={['АВТО СТОП', 'ПРЕДЛОЖЕНИЯ']} linksArdess={['/', '/offers']} lastAdres={'ПРЕДЛОЖЕНИЯ'}/>
+      <SecondaryPageseSubheader title={'Курсы вождения.'} links={['АВТО ШКОЛА', 'ПРЕДЛОЖЕНИЯ']} linksArdess={['/', '/offers']} lastAdres={'ПРЕДЛОЖЕНИЯ'}/>
       <div className='mx-[10px] my-[40px]'>
         <div className='ml-[14px]'>
           <Link to="/driving-courses/cat-a" className={linkStyle}><img src={CheckIcon} alt="link"  className='w-[14px] h-[14px] mr-[5px] '/>{t(`Водительское удостоверение категории А.`)}</Link>

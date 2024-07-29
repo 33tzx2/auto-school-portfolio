@@ -15,7 +15,7 @@ const OffersPage = () => {
  return (
     <div className='flex flex-col items-center '>
       <Header isPure={false}/>
-      <SecondaryPageseSubheader title={'ПРЕДЛОЖЕНИЯ'} links={['АВТО СТОП']} linksArdess={['/']} lastAdres={'ПРЕДЛОЖЕНИЯ'}/>
+      <SecondaryPageseSubheader title={'ПРЕДЛОЖЕНИЯ'} links={['АВТО ШКОЛА']} linksArdess={['/']} lastAdres={'ПРЕДЛОЖЕНИЯ'}/>
       <div className='mx-[10px] my-[40px]'>
         <div className='ml-[14px]'>
           <Link to='/driving-courses' className={linkStyle + ' font-medium'}><img src={CheckIcon} alt="link"  className='w-[14px] h-[14px] mr-[5px] '/>{t(`Курсы вождения.`)}</Link>
@@ -39,9 +39,9 @@ const OffersPage = () => {
           <Link to='/adr-courses' className={linkStyle + ' font-medium'}><img src={CheckIcon} alt="link"  className='w-[14px] h-[14px] mr-[5px] '/>{t(`курс АДР.`)}</Link>
           <Link to="/hds-courses" className={linkStyle + ' font-medium'}><img src={CheckIcon} alt="link"  className='w-[14px] h-[14px] mr-[5px] '/>{t(`курс HDS.`)}</Link>
           <Link to="/forklift-operator-course" className={linkStyle + ' font-medium'}><img src={CheckIcon} alt="link"  className='w-[14px] h-[14px] mr-[5px] '/>{t(`Курс оператора погрузчика.`)}</Link>
-          <Link to="/student-zone" className={linkStyle + ' font-medium'}><img src={CheckIcon} alt="link"  className='w-[14px] h-[14px] mr-[5px] '/>{t(`Студенческая зона.`)}</Link>
-          <Link to='/price-list' className={linkStyle + ' font-medium'}><img src={CheckIcon} alt="link"  className='w-[14px] h-[14px] mr-[5px] '/>{t(`Прайс Лист.`)}</Link>
-          <Link to='/contacts' className={linkStyle + ' font-medium'}><img src={CheckIcon} alt="link"  className='w-[14px] h-[14px] mr-[5px] '/>{t(`Контакты.`)}</Link>
+          <Link to="/student-zone" className={linkStyle + ' font-medium'}><img src={CheckIcon} alt="link"  className='w-[14px] h-[14px] mr-[5px] '/>{t(`Студенческая зона`)}</Link>
+          <Link to='/price-list' className={linkStyle + ' font-medium'}><img src={CheckIcon} alt="link"  className='w-[14px] h-[14px] mr-[5px] '/>{t(`Прайс лист`)}</Link>
+          <Link to='/contacts' className={linkStyle + ' font-medium'}><img src={CheckIcon} alt="link"  className='w-[14px] h-[14px] mr-[5px] '/>{t(`Контакты`)}</Link>
         </div>
       </div>
       <Footer/>
